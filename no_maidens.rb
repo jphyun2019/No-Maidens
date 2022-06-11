@@ -1,6 +1,7 @@
 require 'date'
 require 'json'
 
+print "\e[8;15;36t"
 class String
     def numeric?
       Float(self) != nil rescue false
