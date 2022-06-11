@@ -112,7 +112,7 @@ while not done
 
 
     else
-        pulls = 3 + (diff.to_f*Math.sqrt(level.to_f)).round()
+        pulls = 2 + (diff.to_f*Math.sqrt(level.to_f)).round()
         puts "  Challenge: " + pulls.to_s + " Pull-Ups"
         print "====================================\n\t Type 'y' to Complete\n\n  "
         input = gets.to_s.chomp
